@@ -60,4 +60,18 @@ This project focuses on extracting and analyzing data from YouTube videos using 
 4. Install Python dependencies:
 `pip install -r requirements.txt`
 
-5. Usage
+5. Usage:
+
+6. Future versions:
+- add test suites to existing modules
+- error handling
+- execute kafka streaming to capture real-time video content
+- pyspark to be connected directly with AWS S3 using docker.
+- land pyspark output to AWS S3.
+- Create Tableau dashboards based on transformed analytical data in AWS S3.
+
+7. Issues faced:
+- only one topic created in kafka producer.
+- before AWS S3 bucket creation, the kafka produced the data and the fetch didnt result any data and was failing with "Data not found". Restarted kafka in docker cli to get the data loaded to S3.
+- Pyspark connectivity issues with S3 bucket.
+- Loading back pyspark data to local system / S3 throwing errors.
