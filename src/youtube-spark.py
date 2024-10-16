@@ -1,3 +1,5 @@
+##work in progress code for docker execution connecting AWS S3 
+
 from pyspark.sql import SparkSession
 
 spark = SparkSession.builder \

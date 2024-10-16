@@ -1,11 +1,7 @@
 import logging
 from config.config import API_KEY, KAFKA_BROKER, KAFKA_TOPIC, S3_BUCKET, S3_ENDPOINT_URL
 from src import get_video_comments,get_video_details,create_youtube_client, get_channel_stats,create_kafka_producer, send_to_kafka,create_s3_client, ensure_bucket_exists, upload_to_s3
-#from video_comments import get_video_comments
-#from video_details import get_video_details
-#from channel_stats import create_youtube_client, get_channel_stats
-#from kafka_producer import create_kafka_producer, send_to_kafka
-#from s3_uploader import create_s3_client, ensure_bucket_exists, upload_to_s3
+
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
