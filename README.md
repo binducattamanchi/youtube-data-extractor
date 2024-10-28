@@ -4,6 +4,8 @@
 
 This project focuses on extracting and analyzing data from YouTube videos using the YouTube Data API. It provides insights into video performance metrics such as comments, subscriber count, likes, comment count, and more. The project utilizes a modern tech stack including Apache Kafka for real-time data streaming, Docker for containerization, AWS S3 for data storage, and PySpark for large-scale data processing.
 
+![Youtube-Data-Processing](https://github.com/user-attachments/assets/c2ad1ce9-d63e-497a-b02a-67a0d0f2e847)
+
 ## Features
 
 - Extract detailed video data including:
